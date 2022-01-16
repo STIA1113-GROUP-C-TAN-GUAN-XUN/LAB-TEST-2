@@ -1,0 +1,29 @@
+Enter the number to check Odd or Even: 0
+The number is an even number: 0
+Continue to test?
+yes
+
+Enter the number to check Odd or Even: 1
+The number is an odd number: 1
+Continue to test?
+yes
+
+Enter the number to check Odd or Even: 88
+The number is an even number: 88
+Continue to test?
+yes
+
+Enter the number to check Odd or Even: 99
+The number is an odd number: 99
+Continue to test?
+yes
+
+Enter the number to check Odd or Even: -1
+The number is an odd number: -1
+Continue to test?
+yes
+
+Enter the number to check Odd or Even: -2
+The number is an even number: -2
+Continue to test?
+no
