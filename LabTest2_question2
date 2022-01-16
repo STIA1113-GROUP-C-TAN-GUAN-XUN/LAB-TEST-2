@@ -1,0 +1,48 @@
+package quizAndLabTest;
+
+import java.util.Scanner;
+
+public class LabTest2_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double mark1,mark2,mark3;
+		do {
+			System.out.println("Enter the mark (0-100) for student 1: ");
+			mark1 = sc.nextInt();
+			
+			if((mark1<0) || (mark1>100)){
+				System.out.println("Invalid Input, try again...");
+			}
+		}while ((mark1<0) || (mark1>100));
+		
+		do {
+			System.out.println("Enter the mark (0-100) for student 2: ");
+			mark2 = sc.nextInt();
+			
+			if((mark2<0) || (mark2>100)){
+				System.out.println("Invalid Input, try again...");
+			}
+		}while ((mark2<0) || (mark2>100));
+		
+		do {
+			System.out.println("Enter the mark (0-100) for student 3: ");
+			mark3 = sc.nextInt();
+			
+			if((mark3<0) || (mark3>100)){
+				System.out.println("Invalid Input, try again...");
+			}
+		}while ((mark3<0) || (mark3>100));
+
+		double average =(mark1+mark2+mark3)/3;
+		
+	System.out.printf("The average is: "+ "%.2f",average);
+		
+		
+		
+	}
+
+}
